@@ -18,3 +18,6 @@ class City(models.Model):
 
 	def __unicode__(self):
 		return u'%s, %s' % (self.name, self.state)
+
+	class Meta:
+		verbose_name_plural = 'Cities'
