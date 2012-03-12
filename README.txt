@@ -5,4 +5,8 @@ Data available from http://coastalmap.marine.usgs.gov/GISdata/basemaps/usa/citie
 Data is public domain. See dataset webpage for more specific information on licensing.
 
 Installation:
-	Add 'cities' to INSTALLED_APPS after putting it on your PYTHONPATH.
+	Add 'cities' to INSTALLED_APPS after putting the package on your PYTHONPATH.
+	Run a syncdb or migrate (South migrations are included, and recommended)
+
+Importing:
+	manage.py city_import --path=/path/to/shapefile/
