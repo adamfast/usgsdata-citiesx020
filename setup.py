@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='usgsdata-citiesx020',
-    version='1.0.0',
+    version='1.1.0',
     description='Models and load scripts used to import the U.S. National Atlas Cities and Towns of the United States',
     author='Adam Fast',
     author_email='adamfast@gmail.com',
